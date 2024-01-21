@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    background-image: linear-gradient(90deg,black,purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #110e0eb4;
+    gap: 15px;
+}
+
+input{
+    width: 230px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(202, 238, 226);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.2);
+}
